@@ -35,7 +35,7 @@ HMAC_LEN = hashlib.sha512().digest_size
 HMAC_HALF_LEN = HMAC_LEN // 2
 MNEMONIC_SALT = "mnemonic"
 MNEMONIC_ROUNDS = 2048
-COSMOS_HD_PATH = "m/44'/118'/0'/0/0"
+COSMOS_HD_PATH = "m/44'/60'/0'/0/0"
 
 
 def split_hmac(data: bytes) -> Tuple[bytes, bytes]:
